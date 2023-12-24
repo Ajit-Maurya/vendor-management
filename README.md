@@ -18,8 +18,9 @@ cd path/to/vendorManagement
 ### 3. setup the virtual enviroment
 ```bash
 python -m venv venv
+source venv/bin/activate #in linux
+./venv/Scripts/Activate.ps1 #in windows
 ```
-
 ### 4. Run the following commands in terminal to configure the project (It requires Internet)
 ```bash
 pip install -r requirements.txt
