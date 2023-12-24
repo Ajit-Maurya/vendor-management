@@ -29,10 +29,10 @@ pip install -r requirements.txt
 ```bash
 http://127.0.0.1:5000/api/schema/docs/
 ```
-## above url will give access to swaggerUI to interact with provided API's.
+above url will give access to swaggerUI to interact with provided API's.
 
 ### 6. Steps required for Interaction with API Documention
-## i. Register a new user by making Post request to the auth/users:
-## ii. Make post request on auth/token/login to login and get auth token.
-## iii. Now authorize by entering credentials by clicking Authorize button at start of SwaaggerUI page.
-## iv. now we can make appropriate request to Vendor Management API's.
+i. Register a new user by making Post request to the auth/users:
+ii. Make post request on auth/token/login to login and get auth token.
+iii. Now authorize by entering credentials by clicking Authorize button at start of SwaaggerUI page.
+iv. now we can make appropriate request to Vendor Management API's.
